@@ -1,6 +1,28 @@
 h1 {
     color: black;
-    border: 10px;
-    background-color: beige;
-    font-family: serif;
+    border: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    text-align: center;
+}
+
+nav {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    max-width: 20%;
+    align-items: center;
 }
