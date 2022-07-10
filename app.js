@@ -5,16 +5,16 @@ document.write(firstName + ", welcome to a little sneak peek on my life!")
 function customMessage(){
     let message = "";
     if (firstName == "Jason"){
-        message = " sup my bestie, mr. jason cameron lee."
+        message = " sup my bestie, mr. jason cameron lee.";
         document.write(message);
     } else if (firstName == "marcus"){
-        message = " marcus bad, marcus so so bad!"
+        message = " marcus bad, marcus so so bad!";
         document.write(message);
     } else if (firstName == "natalie"){
-        message = " nat so so stinky <3."
+        message = " nat so so stinky <3.";
         document.write(message);
     } else if (firstName == "cam"){
-        message = " nat is mine, camspy muahahhahahaha."
+        message = " nat is mine, camspy muahahhahahaha.";
         document.write(message);
     }
 }
