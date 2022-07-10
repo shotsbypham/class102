@@ -2,16 +2,25 @@ let firstName = prompt("What is your first name?");
 console.log(firstName);
 document.write(firstName + ", welcome to a little sneak peek on my life!")
 
-if (firstName == "Jason"){
-    document.write("hi mr. jason cameron lee");
-} else if (firstName == "marcus") {
-    document.write(" marcus bad, marcus so so bad!")
+function customMessage(){
+    let message = "";
+    if (firstName == "Jason","jason"){
+        message = " sup my bestie, mr. jason cameron lee."
+        document.write(message);
+    } else if (firstName == "marcus","Marcus"){
+        message = " marcus bad, marcus so so bad!"
+        document.write(message);
+    } else if (firstName == "natalie", "nat", "Natalie"){
+        message = " nat so so stinky <3."
+        document.write(message);
+    } else if (firstName == "cam", "Cam", "cameron", "Cameron"){
+        message = " nat is mine, camspy muahahhahahaha."
+        document.write(message);
+    }
 }
-
-
 let age = prompt("How are old are you?")
 console.log(age);
-document.write(" You are " + age + " years old.")
+document.write(" you are " + age + " years old.")
 
 let icecream = prompt("What is your favorite icecream flavor?")
 console.log(icecream);
