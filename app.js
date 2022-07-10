@@ -1,6 +1,14 @@
-let firstName = prompt("What is your first name?");
-console.log(firstName);
-document.write(firstName + ", welcome to a little sneak peek on my life!")
+let firstName;
+let age;
+let icecream;
+
+function askName() {
+    let firstName = prompt("What is your first name?");
+    console.log(firstName);
+    document.write(firstName + ", welcome to a little sneak peek on my life!");
+}
+
+askName();
 
 function customMessage(){
     let message = "";
@@ -16,12 +24,30 @@ function customMessage(){
     } else if (firstName == "cam"){
         message = " nat is mine, camspy muahahhahahaha.";
         document.write(message);
+    } else {
+        message = " hehe."
+        document.write(message);
     }
 }
-let age = prompt("How are old are you?")
-console.log(age);
-document.write(" you are " + age + " years old.")
 
-let icecream = prompt("What is your favorite icecream flavor?")
-console.log(icecream);
-document.write(" that icecream flavor is foul.")
+customMessage();
+
+function askAge(){
+    let age = prompt("How are old are you?")
+    console.log(age);
+    document.write(" you are " + age + " years old.")
+}
+
+askAge();
+
+function askIcecream (){
+    let icecream = prompt("What is your favorite icecream flavor?")
+    console.log(icecream);
+    document.write(" that icecream flavor is foul.")
+}
+
+askIcecream();
+
+function printName(givenName) {
+    console.log("this is my name:", givenName);
+}
