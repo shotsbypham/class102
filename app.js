@@ -40,14 +40,36 @@ function askAge(){
 
 askAge();
 
-function askIcecream (){
-    let icecream = prompt("What is your favorite icecream flavor?")
-    console.log(icecream);
-    document.write(" that icecream flavor is foul.")
+// function askIcecream (){
+//     let icecream = prompt("What is your favorite icecream flavor?")
+//     console.log(icecream);
+//     document.write(" that icecream flavor is foul.")
+// }
+
+// askIcecream();
+
+// function printName(givenName) {
+//     console.log("this is my name:", givenName);
+// }
+
+
+let userAnswer;
+function favNum(){
+    // let userAnswer = prompt("Guess what my favorite number is between 1 to 10.");
+    while (userAnswer !=2){
+        userAnswer = prompt("Guess what my favorite number is between 1 to 10")
+    if (userAnswer == 2){
+        alert("You are correct!");
+    } else {
+        alert("Wrong, nice try!")
+    }
+    }
 }
+favNum();
 
-askIcecream();
-
-function printName(givenName) {
-    console.log("this is my name:", givenName);
+function ratePage(){
+    let userNumber = prompt("How was your experience on my page? 1-5");
+    for (let i = 1; i <=userNumber; i++){
+        document.write("<img class= 'star-pic' src= 'star.png' />" ); 
+    }
 }
