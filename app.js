@@ -4,16 +4,16 @@ document.write(firstName + ", welcome to a little sneak peek on my life!")
 
 function customMessage(){
     let message = "";
-    if (firstName == "Jason","jason"){
+    if (firstName == "Jason"){
         message = " sup my bestie, mr. jason cameron lee."
         document.write(message);
-    } else if (firstName == "marcus","Marcus"){
+    } else if (firstName == "marcus"){
         message = " marcus bad, marcus so so bad!"
         document.write(message);
     } else if (firstName == "natalie", "nat", "Natalie"){
         message = " nat so so stinky <3."
         document.write(message);
-    } else if (firstName == "cam", "Cam", "cameron", "Cameron"){
+    } else if (firstName == "cam"){
         message = " nat is mine, camspy muahahhahahaha."
         document.write(message);
     }
