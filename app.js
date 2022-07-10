@@ -10,7 +10,7 @@ function customMessage(){
     } else if (firstName == "marcus"){
         message = " marcus bad, marcus so so bad!"
         document.write(message);
-    } else if (firstName == "natalie", "nat", "Natalie"){
+    } else if (firstName == "natalie"){
         message = " nat so so stinky <3."
         document.write(message);
     } else if (firstName == "cam"){
